@@ -1,7 +1,5 @@
 import React from 'react';
-
 import styles from './MessageList.css';
-
 
 const Message = props => (
   <div className={styles.Message}>
@@ -17,8 +15,8 @@ const MessageList = props => (
         return (
           <Message
             key={i}
-            from={message.from}
-            text={message.text}
+              from={message.from}
+              text={message.text}
           />
         );
       })
